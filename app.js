@@ -26,7 +26,7 @@ app.use(express.urlencoded({ limit: '10mb', extended: true }));
 app.use(cookieParser());
 
 // Testing API
-app.get('/test', (req, res, next) => {
+app.get('/', (req, res, next) => {
     res.status(200).json({
         success: true,
         message: 'API is working'
