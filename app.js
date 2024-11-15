@@ -13,7 +13,7 @@ const app = express();
 // CORS Middleware - Place it before routes
 const corsOptions = {
     // local origin: 'http://localhost:5173'
-    origin:'https://prescripto-client.vercel.app/', // Allow only this origin
+    origin:["http://localhost:5173","https://prescripto-client.vercel.app"], // Allow only this origin
     optionsSuccessStatus: 200, // For legacy browser support
     credentials: true, // Enable to allow cookies
 };
