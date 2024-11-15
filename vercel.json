@@ -7,6 +7,6 @@
     }
   ],
   "routes": [
-    { "source": "/(.*)", "dest": "/" }
+    { "source": "/api/v1/(.*)", "dest": "/" }
   ]
 }
